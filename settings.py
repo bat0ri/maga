@@ -55,6 +55,9 @@ class Tables:
     
     def get_dfs(self):
         return [self.IST.df, self.FIIT.df, self.IB.df, self.PM.df, self.PMI.df, self.BI.df, self.PI.df]
+    
+    def get_admitted(self):
+        return [self.IST.admitted, self.FIIT.admitted, self.IB.admitted, self.PM.admitted, self.PMI.admitted, self.BI.admitted, self.PI.admitted]
 
 
 config = Tables()
